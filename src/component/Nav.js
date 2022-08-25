@@ -45,11 +45,6 @@ export class Nav extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  text-light" to="/general">
-                    General
-                  </Link>
-                </li>
-                <li className="nav-item">
                   <Link className="nav-link  text-light" to="/health">
                     Health
                   </Link>

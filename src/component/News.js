@@ -15,14 +15,15 @@ export default class News extends Component {
     pageSize: PropTypes.number,
   };
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       articales: [],
       loading: false,
       totalResults: 0,
       page: 1,
     };
+    document.title=`${this.props.category} daily-news`
   }
 
   async oneFun(){
